@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "sender": "promo@company.com",
+      "subject": "Special Offer Just for You!",
+      "date": "2024-10-01",
+      "snippet": "Don't miss out on this exclusive offer...",
+      "content": "<h1>Big Sale!</h1><p>Get 50% off your next purchase.</p>",
+      "contentType": "html",
+      "attachments": []
+    },
+    {
+      "id": 2,
+      "sender": "admin@company.com",
+      "subject": "Monthly Report",
+      "date": "2024-10-01",
+      "snippet": "Attached is the monthly report...",
+      "content": "large_table_placeholder", 
+      "contentType": "table",
+      "attachments": []
+    },
+    {
+      "id": 3,
+      "sender": "support@company.com",
+      "subject": "Your Download is Ready",
+      "date": "2024-10-01",
+      "snippet": "Click here to download your file...",
+      "content": "<p>Download your file below:</p>",
+      "contentType": "html",
+      "attachments": [
+        { "name": "file.pdf", "url": "/path/to/file.pdf" }
+      ]
+    }
+  ]
+  
